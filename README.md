@@ -55,18 +55,18 @@ ResNet50을 활용하여 **10가지 두피 질환을 다중 라벨 분류**하�
 ## 🌳 Modeling
 ### 🎯 Resnet50 기반 다중 이진 분류 모델 
 
-🔍 왜 ResNet50을 선택했을까?
+🔍 **왜 ResNet50을 선택했을까?**
 - ResNet50은 Residual Connection을 활용하여 깊은 신경망 학습 시 기울기 소실 문제를 해결
 - 50개의 계층을 거쳐 이미지 특징을 효과적으로 추출
 - 다양한 Computer Vision 태스크에서 우수한 성능을 보장
-- **전이 학습(Transfer Learning)**을 활용해 빠른 학습 가능
+- **전이 학습**(Transfer Learning)을 활용해 빠른 학습 가능
 - 이러한 특징을 가진 Resnet50을 기반으로 하여 **MultiBinaryClassificationModel** 설계
 
 
 💡 모델 구조
 - ResNet50의 Feature Extractor를 활용하여 Feature Map 추출
 - Fully Connected Layer를 추가하여 출력 차원을 10개 클래스에 맞게 조정
-- 최종적으로 각 이미지에 대해 다중 질환 판단이 가능하도록 설계
+- 최종적으로 각 이미지에 대해 **다중 질환 판단**이 가능하도록 설계
 
 
 
@@ -79,6 +79,6 @@ ResNet50을 활용하여 **10가지 두피 질환을 다중 라벨 분류**하�
 
 ## ⭐ Model Serving 
 - Gradio 사용
-- 모델의 결과를 Gemini에 넣어 진단법과 함께 진단 결과 확인 가능
+- 모델의 결과를 Gemini에 입력되어 진단법과 함께 진단 결과 확인 가능
 
 <img alt="시연" src="https://github.com/user-attachments/assets/1f2a4090-b199-4705-a574-427d11b8740d" />

@@ -10,7 +10,7 @@ import time
 import google.generativeai as genai
 
 # Google Gemini API 설정
-GOOGLE_API_KEY = "AIzaSyB55b9Da-I11QNiHfjXyvpSzX-xzC8BSmM"
+GOOGLE_API_KEY = "API KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 gemini_model = genai.GenerativeModel('gemini-1.5-flash')  # Gemini 모델 인스턴스
 

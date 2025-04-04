@@ -8,7 +8,8 @@ ResNet50을 활용하여 **10가지 두피 질환을 다중 라벨 분류**하�
 > - 🛠️ **ResNet50 기반 분류 모델 설계**
 > - 🤖 **데이터 전처리 및 Augmentation**
 > - 🎯 **98.83% 정확도로 두피 질환 분류**
-> - 🌐 **Gradio & Gemini API 활용한 모델 서빙**  
+> - 🌐 **Gradio & FastAPI 활용한 모델 서빙**
+> - ⭐ **Gemini API 활용한 사용자 친화적 결과 제공**
 
 📄 **[👩‍🏫 발표자료 보러 가기‼️](./[딥러닝]발표자료_9_김예진.pdf)**  
 
@@ -78,7 +79,7 @@ ResNet50을 활용하여 **10가지 두피 질환을 다중 라벨 분류**하�
 <br>
 
 ## ⭐ Model Serving 
-- Gradio 사용
-- 모델의 결과를 Gemini에 입력되어 진단법과 함께 진단 결과 확인 가능
+- Fast API & Gradio를 활용하여 모델 서빙
+- Gemini API를 이용하여 모델 결과에 따른 진단법과 함께 사용자에게 결과 제공
 
 <img alt="시연" src="https://github.com/user-attachments/assets/1f2a4090-b199-4705-a574-427d11b8740d" />
